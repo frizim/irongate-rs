@@ -4,6 +4,7 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
+uuid = {version = "1.11.0", features = ["v4"]}
 chrono = { version = "0.4.38", features = ["std", "clock"]}
 toml = "0.8.19"
 argon2 = "0.5.3"
