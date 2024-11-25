@@ -1,0 +1,10 @@
+[package]
+name = "irongate"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+chrono = { version = "0.4.38", features = ["std", "clock"]}
+toml = "0.8.19"
+argon2 = "0.5.3"
+log = "=0.4.22"
